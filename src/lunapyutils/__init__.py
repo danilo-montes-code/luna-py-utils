@@ -3,7 +3,7 @@ from typing import Any
 
 
 # constants
-DEVELOPING = False
+DEVELOPING = True
 
 
 def handle_error(
