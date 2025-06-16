@@ -15,6 +15,7 @@ def handle_error(
     Either displays the full error message or just the error text,
     depending on whether the script is being developed or not.
 
+    
     Parameters
     ----------
     error : Exception
@@ -56,6 +57,7 @@ def print_internal(
     Prints a message with an indent indicating an internal message,
     a message that appears during setup of the script.
 
+    
     Parameters
     ----------
     text : Any
@@ -77,6 +79,7 @@ def print_script_message(text : str) -> None:
     """
     Prints a message with a >, indicating a message from the script.
 
+    
     Parameters
     ----------
     text : str
@@ -91,6 +94,7 @@ def save_log(filename: str, data: Any) -> None:
     """
     Appends the given data to the given file.
 
+    
     Parameters
     ----------
     filename : str
@@ -109,6 +113,7 @@ def prompt_for_answer(prompt_text : str) -> str:
     """
     Prompts the user for an input to answer the given prompt.
 
+    
     Parameters
     ----------
     prompt_text : str
@@ -134,6 +139,7 @@ def select_list_options(options : list[str]) -> int:
     Prints a given list of options for the user to choose from by selecting
     a number option.
 
+    
     Parameters
     ----------
     options : list[str]
@@ -173,6 +179,7 @@ def merge_dicts(dict1: dict, dict2: dict, path=[]) -> None:
     """
     Merges two dictionaries, storing the result in the first `dict` argument.
 
+    
     Paremeters
     ----------
     dict1 : dict
